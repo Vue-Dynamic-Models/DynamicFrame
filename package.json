@@ -1,0 +1,40 @@
+{
+  "name": "@vue-dynamic-models/dynamic-frame",
+  "version": "0.0.1",
+  "type": "module",
+  "private": false,
+  "main": "./dist/index.mjs",
+  "module": "./src/index.ts",
+  "scripts": {
+    "dev": "vite serve example --config vite.config.ts",
+    "build": "vue-tsc && vite build"
+  },
+  "author": "funny002 <funnydsu@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Vue-Dynamic-Models/DynamicFrame",
+  "bugs": {
+    "email": "funnydsu@gmail.com",
+    "url": "https://github.com/Vue-Dynamic-Models/DynamicFrame/issues"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "DynamicFrame",
+    "url": "git+https://github.com/Vue-Dynamic-Models/DynamicFrame.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vue-dynamic-models/dynamic-models": "^0.0.8",
+    "element-plus": "^2.7.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vue": "^3.4.22",
+    "vue-tsc": "^1.8.22"
+  },
+  "peerDependencies": {
+    "@vue-dynamic-models/dynamic-models": "^0.0.0",
+    "element-plus": "^2.0.0",
+    "vue": "^3.0.0"
+  },
+  "files": ["src", "dist"]
+}

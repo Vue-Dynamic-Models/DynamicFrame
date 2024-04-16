@@ -1,0 +1,13 @@
+.idea
+.vscode
+.DS_Store
+node_modules
+
+#
+dist
+.cache
+
+#
+components.d.ts
+auto-imports.d.ts
+tsconfig.tsbuildinfo
